@@ -21,13 +21,12 @@
             <i class="ph-fill ph-star"></i>
             Perpustakaan Digital
         </div>
-        <h1 class="font-display text-4xl md:text-5xl font-bold leading-tight mb-5"
-            style="color:#faf8f4;">
-            Kamu Mau Baca <br>
-            <span style="color:#b8860b;">Apa Nyakk</span>
+        <h1 class="font-display text-4xl md:text-5xl font-bold leading-tight mb-5" style="color:#faf8f4;">
+            Sudah Baca Buku Hari Ini?<br>
+            <span style="color:#b8860b;">Sedikit Halaman, Sejuta Makna.</span>
         </h1>
         <p class="text-base leading-relaxed mb-8 max-w-lg" style="color:#c8bfaf;">
-            Baca Buku Pokee
+            Tidak perlu langsung tamat. Cukup luangkan waktu 5 menit hari ini untuk menyegarkan pikiranmu.
         </p>
         <div class="flex flex-wrap gap-3">
             @guest

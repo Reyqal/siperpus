@@ -11,11 +11,13 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
+        // Tambahkan baris ini untuk mengatasi error HTTPS di Railway
+        $middleware->trustProxies(at: '*');
+
         $middleware->alias([
             'isAdmin'   => \App\Http\Middleware\IsAdmin::class,
             'isAnggota' => \App\Http\Middleware\IsAnggota::class,
         ]);
-
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //
