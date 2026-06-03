@@ -1,0 +1,6 @@
+[phases.setup]
+cmds = [
+  "curl -sSLf -o /usr/local/bin/install-php-extensions https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions",
+  "chmod +x /usr/local/bin/install-php-extensions",
+  "install-php-extensions ctype curl dom fileinfo filter hash mbstring openssl pcre pdo session tokenizer xml pdo_mysql"
+]
